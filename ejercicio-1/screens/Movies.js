@@ -88,7 +88,7 @@ export function Movies() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#a2866bb8",
     alignItems: "center",
     justifyContent: "center",
   },

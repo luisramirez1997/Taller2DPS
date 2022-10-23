@@ -43,7 +43,6 @@ const styles = StyleSheet.create({
   imageList: {
     width: "100%",
     height: 200,
-    marginVertical: 15,
   },
   container: {
     flex: 1,
@@ -89,23 +88,18 @@ export function SeriesList({ swiperdata, seriesData }) {
                   <Image style={styles.imageList} source={value.image} />
                   <View
                     style={{
-                      marginLeft: 50,
-                      marginVertical: 20,
+                      marginLeft: 10,
                       width: 100,
-                      alignItems: "center",
                       justifyContent: "center",
                     }}
                   >
                     <Text
                       style={{
-                        marginBottom: 20,
                         fontWeight: "bold",
-                        textAlign: "center",
                       }}
                     >
-                      {value.title}
+                      {value.title}:{value.description}
                     </Text>
-                    <Text>* {value.description}</Text>
                   </View>
                 </View>
               ))}

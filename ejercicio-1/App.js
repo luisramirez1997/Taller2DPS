@@ -31,7 +31,7 @@ export default function App() {
         }}
       >
         <Tab.Screen
-          name="Movies"
+          name="Peliculas"
           component={Movies}
           options={{
             tabBarIcon: ({}) => (
@@ -47,7 +47,7 @@ export default function App() {
           }}
         />
         <Tab.Screen
-          name="CoomingSoon"
+          name="Proximamente"
           component={CoomingSoon}
           options={{
             tabBarIcon: ({}) => (
